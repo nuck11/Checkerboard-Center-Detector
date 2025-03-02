@@ -1,5 +1,3 @@
 2. A função mark() deve colocar pontos cinzentos nos centros e tmb
    noutra imagem rgb deve assinalar a vermelho, essa deve ser a imagem
    que é guardada
-
-3. Acertar as contas da percentagem
