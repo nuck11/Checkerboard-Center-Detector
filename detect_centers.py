@@ -37,9 +37,7 @@ def mark(im, l, c):
 
 #marca os centros numa imagem rgb apenas par visualizar
 def mark_red(rgb_im, centers):
-
     lado = 2 #METADE DO LADO
-
     for n in range(len(centers)):
         l0 = centers[n][0]; c0 = centers[n][1]
         red = [0, 0, 255]
@@ -47,7 +45,6 @@ def mark_red(rgb_im, centers):
             for l in range(l0-lado+1, l0+lado+1):
                 for c in range(c0-lado+1,c0+lado+1):
                     rgb_im[l][c] = red
-
 
 #encontra e marca os centros numa imagem
 def find_centers(im, num_centers, win, name, ui = 1): 
