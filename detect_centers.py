@@ -80,3 +80,5 @@ def find_centers(im, num_centers, win, name, ui = 1):
     cv.imwrite(name, rgb_im)
     print(centers)
     return centers
+
+#coco
